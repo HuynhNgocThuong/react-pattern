@@ -1,9 +1,7 @@
+# MODULE PATTERN
 
-# OBSERVER PATTERN
->With the observer pattern, we can subscribe certain objects, the observers, to another object, called the observable. Whenever an event occurs, the observable notifies all its observers!
+> When building applications with React, you often have to deal with a large amount of components. Instead of writing all of these components in one file, we can separate the components in their own files, essentially creating a module for each component.
 
-## An observable object usually contains 3 important parts:
-- observers: an array of observers that will get notified whenever a specific event occurs
-- subscribe(): a method in order to add observers to the observers list
-- unsubscribe(): a method in order to remove observers from the observers list
-- notify(): a method to notify all observers whenever a specific event occurs
+## Module
+
+[![Module pattern](./public/module_pattern.png)]

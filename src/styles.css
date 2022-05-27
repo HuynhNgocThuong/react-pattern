@@ -1,34 +1,28 @@
 html,
 body {
-  background-color: #232323;
-  margin: 0;
+  margin: 0px;
+  background-color: #171717;
 }
 
 .App {
-  font-family: sans-serif;
-  height: 100vh;
-  text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #232323;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem 0;
 }
 
-button {
-  margin: 0 30px !important;
+h1 {
+  font-family: "Roboto";
+  font-weight: lighter;
+  margin-bottom: 50px;
+  color: #fff;
 }
 
-label {
-  color: white;
+.todo-list {
+  padding: 0 3rem;
 }
 
-.Toastify__toast-container {
-  padding: 0;
-  width: 150px;
-}
-
-.Toastify__toast--default {
-  background-color: #171717;
-  color: white;
-  font-size: 12px;
+li {
+  color: #fff;
 }

@@ -1,7 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import { render } from "react-dom";
+import { TodoList } from "./components/TodoList";
 import "./styles.css";
-import "react-toastify/dist/ReactToastify.css";
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+render(
+  <div className="App">
+    <TodoList />
+  </div>,
+  document.getElementById("root")
+);
