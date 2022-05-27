@@ -1,28 +1,5 @@
-html,
-body {
-  margin: 0px;
-  background-color: #171717;
-}
-
-.App {
-  display: flex;
-  justify-content: center;
+body,
+html {
   font-family: sans-serif;
-  text-align: center;
-  padding: 2rem 0;
-}
-
-h1 {
-  font-family: "Roboto";
-  font-weight: lighter;
-  margin-bottom: 50px;
-  color: #fff;
-}
-
-.todo-list {
-  padding: 0 3rem;
-}
-
-li {
-  color: #fff;
+  background: #171717;
 }
