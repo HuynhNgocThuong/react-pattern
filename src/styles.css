@@ -1,5 +1,32 @@
 html,
 body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+input {
+  outline: none;
+  padding: 1em;
+  border-radius: 15px;
+  box-shadow: none;
+  border: 2px solid pink;
+  font-family: "Avenir Next";
+  font-size: 20px;
+}
+
+html,
+body {
+  margin: 0px;
+}
+
+html,
+body {
   margin: 0px;
   background-color: #1e2027;
 }
@@ -8,38 +35,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
   font-family: "Avenir Next";
-  font-weight: bold;
+}
+
+.temp {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 15px;
+  width: 100px;
 }
 
 h1 {
-  font-weight: lighter;
+  font-size: 25px;
+  font-family: "Avenir", sans-serif;
   color: #fff;
-}
-
-img {
-  width: 80%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 10px;
-  margin: 1rem;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-#hover {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  color: white;
-  background-color: royalblue;
-  font-size: 13px;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  box-shadow: 3px 5px 10px #00000069;
-}
-
-#list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
